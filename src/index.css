@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+*{
+  font-family: "Open Sans", sans-serif;
+  margin: 0%;
+  padding: 0;
+}
+a,li{
+  /* all: unset; */
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  all: unset;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+#scroling2{
+  position: fixed;
+  background-color: cadetblue;
+  padding: 15px;
+  border-radius:50%;
+  bottom: 20px;
+  right: 20px;
+  z-index: 4000;
+  opacity: 0.8;
+}
